@@ -6,13 +6,14 @@
 }
 
 /* Grid Tile Styling */
-div div {
+.row {
     height: 25px;
     width: 25px;
     margin: 0px;
     padding: 0px;
     border: 1px solid black;
 }
+
 
 /* Container Styling */
 #main-container {
