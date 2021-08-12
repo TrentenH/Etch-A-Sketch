@@ -22,10 +22,12 @@
     border: 2px solid red;
     height: 432px;
     width: 432px;
-    flex-wrap: wrap;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
     margin: auto;
     margin-top: 1em;
+    overflow: hidden;
+    
 }
 
 

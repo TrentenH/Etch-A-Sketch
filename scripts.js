@@ -61,6 +61,8 @@ function reset() {
         newGrid[i].addEventListener("mouseenter", shading);
     }
 
+    let newContainer = document.getElementById('main-container');
+    newContainer.style.setProperty('grid-template-columns', 'repeat('+input_num+', 1fr)');
 
 }
 
